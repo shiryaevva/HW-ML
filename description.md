@@ -43,7 +43,8 @@
 | unique| 621 |	4 |	3 |	2 |	5 |	237 | 88 | 182 | 226 |
 | top|	Maruti Alto 800 LXI | Diesel | Individual | Manual |	First Owner | 18.6 kmpl | 1248 CC | 74 bhp | 200Nm@ 1750rpm |
 | freq|	15 | 534 |	837 | 877 |	623 | 23 | 116 | 43	| 57 |
-⠀⠀
+
+
 Признаки, которые имеют пропуски в train:
 * mileage - 2.886%
 * engine - 2.886%
