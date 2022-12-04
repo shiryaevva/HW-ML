@@ -180,8 +180,9 @@ R2 score: 0.6396658886548819
 * На вход в формате json подаются признаки одного объекта, на выходе сервис выдает предсказанную стоимость машины screenshot
 * На вход подается csv-файл с признаками тестовых объектов, на выходе получаем файл с +1 столбцом - предсказаниями на этих объектах
 
-[Скрин1]([http://baidu.com/pic/doge.png](https://github.com/shiryaevva/HW_ML/blob/main/lib/fast_api1.png))
-[Скрин2]([[http://baidu.com/pic/doge.png](https://github.com/shiryaevva/HW_ML/blob/main/lib/fast_api1.png](https://github.com/shiryaevva/HW_ML/blob/main/lib/fast_api2.png))
+[Скрин1](https://github.com/shiryaevva/HW_ML/blob/main/lib/fast_api1.png)
+
+[Скрин2](https://github.com/shiryaevva/HW_ML/blob/main/lib/fast_api2.png)
 
 
 
