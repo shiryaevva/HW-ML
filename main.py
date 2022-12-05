@@ -92,8 +92,8 @@ def predict_item(item: Item) -> float:
 
 @app.post("/predict_items")
 def predict_items(file: UploadFile):
-    input_data = pd.read_csv(file.filename)
-    input_data = input_data.drop(['selling_price', 'torque'], axis=1)
+    data_input = pd.read_csv(file.filename)
+    input_data = data_input.drop(['selling_price', 'torque'], axis=1)
     input_data = preprocessor(input_data)
 
     print(input_data.shape)
@@ -107,7 +107,7 @@ def predict_items(file: UploadFile):
     input_data_s = sc.transform(input_data_enc)
     input_data_scaled = pd.DataFrame(data=input_data_s, columns=list(input_data_enc))
 
-    input_data['prediction'] = lr_ridge.predict(input_data_scaled)
-    input_data.to_csv('lib/prediction.csv', index=False)
+    data_input['prediction'] = lr_ridge.predict(input_data_scaled)
+    data_input.to_csv('lib/prediction.csv', index=False)
 
     return FileResponse('lib/prediction.csv')
